@@ -1,0 +1,35 @@
+.about__icon i{
+    color: #fb7171;
+}
+
+.about__img{
+    padding: 15px;
+    background: #240c0c;
+    margin-bottom: 45px;
+    border-radius: 9px;
+    height: 460px;
+    width: auto;
+    transition: 0.2s;
+}
+
+.about__img:hover{
+    padding: 20px;
+    background: #240c0c;
+    border-radius: 9px;
+    height: 470px;
+    width: auto;
+    transition: ease-in-out;
+    transition: 0.3s;
+}
+
+.about__img img{
+    /* width: 100% !important; */
+    border-radius: 5px;
+    height: 430px;
+    width: auto;
+}
+
+.about__acv{
+    margin-left: 14rem;
+    margin-top: -220px;
+}
