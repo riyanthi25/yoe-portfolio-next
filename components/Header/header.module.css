@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 5px;
 }
 
 .logo h1{
@@ -68,8 +69,58 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
+    height: 86px;
     line-height: 80px;
-    box-shadow: 5px 5px 15px -5px #01d29344 !important;
+    box-shadow: 5px 5px 15px -5px #fb7171 !important;
     z-index: 9999;
+}
+
+.mobile__menu i{
+    font-size: 1.3rem;
+    color: #fb7171;
+    cursor: pointer;
+}
+
+.mobile__menu{
+    display: none;
+}
+
+/* responsive */
+@media only screen and (max-width:992px) {
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #171f3897;
+        z-index: 99999;
+        display: none;
+    }
+
+    .nav__menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav__right{
+        display: none;
+    }
+
+    .mobile__menu{
+        display: block;
+    }
+    
+    .menu__active{
+        display: block;
+    }
+
+    .logo h1{
+        font-size: 1.5rem !important;
+    }
 }

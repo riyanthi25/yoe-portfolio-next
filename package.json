@@ -19,5 +19,9 @@
     "reactstrap": "^9.1.6",
     "remixicon": "^2.5.0",
     "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28"
   }
 }

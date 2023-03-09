@@ -19,6 +19,7 @@
 .hero__img{
     position: relative;
     z-index: 9;
+    padding-top: 40px;
 }
 
 .hero__skills{
@@ -81,4 +82,70 @@
 .hero__experience h5,
 .hero__experience h6{
     background: transparent !important;
+}
+
+@media only screen and (max-width:992px){
+    .hero__content h2{
+        font-size: 1.5rem !important;
+    }
+
+    .hero__content h5{
+        font-size: 1.1rem !important;
+    }
+    
+    .hero__img{
+        padding-top: 50px;
+    }
+
+    .hero__img img{
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .hero__content{
+        padding-top: 25px;
+    }
+
+    .hero__skills{
+        left: 35px;
+        margin-top: -17px;
+    }
+
+    .hero__experience{
+        right: 5px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .hero__img{
+        text-align: center !important;
+        margin-top: 60px;
+        margin-bottom: -90px;
+    }
+
+    .hero__skills{
+        left: 53px;
+        margin-top: -17px;
+    }
+
+    .hero__experience{
+        right: 18px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .hero__skills{
+        display: none;
+    }
+
+    .hero__experience{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .hero__img{
+        padding-top: 1px !important;
+        margin-top: 40px;
+    }
 }

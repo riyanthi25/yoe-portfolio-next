@@ -1,0 +1,40 @@
+.skills__item {
+    background:bisque;
+    padding: 0px 20px 20px 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.skills__img {
+    margin-bottom: 5px;
+    text-align: center;
+    background: bisque;
+}
+
+.skills__img h3{
+    background-color: bisque;
+    color: black;
+}
+
+.skills__img img {
+    border-radius: 10px;
+    background:bisque;
+}
+
+.skills__keyword {
+    display: none;
+}
+
+
+@media only screen and (max-width:768px) {
+    .skills__img {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    
+    .skills__img img {
+        height: 90px;
+        width: auto;
+    }
+}

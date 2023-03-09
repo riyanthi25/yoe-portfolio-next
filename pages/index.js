@@ -1,7 +1,9 @@
 import { Fragment } from "react";
-import Hero from "@/components/UI/Hero";
-import About from "@/components/UI/About";
-import Portfolio from "@/components/UI/Portfolio";
+import Hero from "../components/UI/Hero"
+import About from "../components/UI/About"
+import Portfolio from "../components/UI/Portfolio"
+import Skills from "../components/UI/Skills"
+import Contact from "../components/UI/Contact"
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
     <Hero />
     <About />
     <Portfolio />
+    <Skills />
+    <Contact />
   </Fragment>
   );
 }

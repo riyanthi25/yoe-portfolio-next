@@ -1,5 +1,6 @@
 .about__icon i{
     color: #fb7171;
+    font-size: 13px;
 }
 
 .about__img{
@@ -9,17 +10,12 @@
     border-radius: 9px;
     height: 460px;
     width: auto;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 .about__img:hover{
-    padding: 20px;
-    background: #240c0c;
-    border-radius: 9px;
-    height: 470px;
-    width: auto;
-    transition: ease-in-out;
-    transition: 0.3s;
+    background: #fb7171;
+    transition: 0.5s;
 }
 
 .about__img img{
@@ -30,6 +26,54 @@
 }
 
 .about__acv{
-    margin-left: 14rem;
-    margin-top: -220px;
+    display: block;
+    padding-top: 2rem;
+    margin-top: -240px;
+    margin-left: 165px;
+}
+
+
+
+/* responsive */
+@media only screen and (max-width:992px) {
+    .about__img{
+        padding-top: 30px;
+        background: #240c0c;
+        /* margin-bottom: 10px; */
+        border-radius: 9px;
+        height: 408px;
+        width: auto;
+        transition: 0.5s;
+    }
+
+    .about__img img{
+        border-radius: 5px;
+        height: 350px;
+        width: auto;
+    }
+    .about__acv {
+        display:grid;
+        margin-top: -226px;
+    }
+
+    .about__acv span,
+    .about__acv sup,
+    .about__acv h6{
+        font-size: medium;
+        padding-top: -3px;
+        margin-top: -10px;
+    }
+
+    .about__cntr h5,
+    .about__cntr h6,
+    .about__cntr sup{
+        font-size: small !important;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .about__img, 
+    .about__img img{
+        display: none;
+    }
 }
