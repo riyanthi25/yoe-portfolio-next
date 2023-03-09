@@ -25,7 +25,7 @@ const About = () => {
 
                 <Col lg='6' md='6' className='mt-5'>
                     <SectionSubtitle subtitle="About Me" />
-                    <h3>Sup' Guys!</h3>
+                    <h3>Hello Guys!</h3>
                     <p>Someone who loves anything about technology,
                         like to discuss and work grouply with other people.
                         Also the social organizations at school and surrounding environment
