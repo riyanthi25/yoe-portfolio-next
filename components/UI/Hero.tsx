@@ -17,7 +17,7 @@ const Hero = () => {
                         <h2 className='mt-2'>I&apos;m Putu Yoeliessya Riyanthi</h2>
                         <h5 className='mb-4'>Junior Developer</h5>
                         <p>A high school student from SMKN 1 Denpasar majoring in Software Engineering who loves code and play alots of games, big interest in computer.
-                            Having many experience in social organization at school. Many friends? It's Possible!
+                            Having many experience in social organization at school. Many friends? Its Possible!
                         </p>
                         <div className='mt-3 mb-4'>
                             <button className='primary__btn'>
