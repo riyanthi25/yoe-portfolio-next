@@ -12,7 +12,7 @@ const Skills = () => {
             <Row>
                 <Col lg='6' md='6'>
                     <SectionSubtitle subtitle='Skills' />
-                    <h4 className='mt-3 mb-3'>Here's some of my Skills</h4>
+                    <h4 className='mt-3 mb-3'>Some of my Skills</h4>
                 </Col>
 
                 <Col lg='6' md='6'>
