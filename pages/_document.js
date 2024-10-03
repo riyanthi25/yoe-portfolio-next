@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>ꕥ My Portfolio ꕥ</title>
+        <title>ꕥ Yoe Portfolio ꕥ</title>
       </Head>
       <body>
         <Main />

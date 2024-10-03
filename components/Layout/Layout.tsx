@@ -3,9 +3,9 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 
 export const metadata = {
-  title: '✾ My Portfolio ✾',
-  description: 'Yoelis Portfolio Website',
-}
+  title: "✾ Yoe Portfolio ✾",
+  description: "Yoelis Portfolio Website",
+};
 
 const Layout = (props) => {
   return (
