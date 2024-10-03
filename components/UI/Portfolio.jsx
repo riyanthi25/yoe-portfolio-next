@@ -34,7 +34,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <Container>
         <Row>
-          <Col lg="6" md="6" className="mb-3 mt-5">
+          <Col lg="6" md="6" className="mb-3 mt-3">
             <SectionSubtitle subtitle="My School & My Projects " />
             <h4 className="mt-3">See more about me.</h4>
           </Col>

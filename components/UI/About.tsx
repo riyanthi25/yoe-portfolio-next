@@ -4,82 +4,107 @@ import Link from 'next/link';
 import SectionSubtitle from './SectionSubtitle';
 import Image from 'next/image';
 import classes from '../../styles/about.module.css';
-import img03 from '../../public/images/img-03.jpeg'
+import imgAbout from "../../public/images/img-about.jpeg";
 
 
 const About = () => {
-    return <section id='about'>
+    return (
+      <section id="about">
         <Container>
-            <Row>
-                <Col lg='5' md='5'>
-                    <div className="d-flex gap-2 justify-content-around">
-                        <div className='d-flex flex-column mb-5 mt-5'>
-                            <div className={`${classes.about__img} ${classes.about__img__box}`}>
-                                <Image src={img03} alt="about-img"></Image>
-                            </div>
-                        </div>
-                    </div>
+          <Row>
+            <Col lg="5" md="5">
+              <div className="d-flex gap-2 justify-content-around">
+                <div className="d-flex flex-column mb-5 mt-5">
+                  <div
+                    className={`${classes.about__img} ${classes.about__img__box}`}
+                  >
+                    <Image src={imgAbout} alt="about-img"></Image>
+                  </div>
+                </div>
+              </div>
+            </Col>
 
-                </Col>
+            <Col lg="7" md="6" className="mt-5">
+              <div>
+                <SectionSubtitle subtitle="About Me" />
+                <h3>Hello Guys!</h3>
+                <p>
+                  Someone who loves anything about technology, like to discuss
+                  and work grouply with other people. Also the social
+                  organizations at school and surrounding environment
+                </p>
+                <div className="mt-4">
+                  <h3>Abilities</h3>
+                  <div
+                    className="d-flex flex-wrap gap-3"
+                    style={{ gap: "20px" }}
+                  >
+                    <h6 className=" d-flex align-items-center gap-2 fw-normal mr-2">
+                      <span className={`${classes.about__icon}`}>
+                        <i className="ri-checkbox-circle-fill"></i>
+                      </span>
+                      Creativity
+                    </h6>
+                    <h6 className=" d-flex align-items-center gap-2 fw-normal">
+                      <span className={`${classes.about__icon}`}>
+                        <i className="ri-checkbox-circle-fill"></i>
+                      </span>
+                      Collaboration
+                    </h6>
+                    <h6 className=" d-flex align-items-center gap-2 fw-normal">
+                      <span className={`${classes.about__icon}`}>
+                        <i className="ri-checkbox-circle-fill"></i>
+                      </span>
+                      Problem Solving
+                    </h6>
+                    <h6 className=" d-flex align-items-center gap-2 fw-normal">
+                      <span className={`${classes.about__icon}`}>
+                        <i className="ri-checkbox-circle-fill"></i>
+                      </span>
+                      Discipline
+                    </h6>
+                  </div>
+                </div>
+              </div>
 
-
-                <Col lg='6' md='6' className='mt-5'>
-                    <SectionSubtitle subtitle="About Me" />
-                    <h3>Hello Guys!</h3>
-                    <p>Someone who loves anything about technology,
-                        like to discuss and work grouply with other people.
-                        Also the social organizations at school and surrounding environment
-                    </p>
-                    <div className= {`${classes.about__cntr}`}>
-                        <div>
-                            <div>
-                                <h5>Abilities</h5>
-                                <h6 className=' d-flex align-items-center gap-3 mt-4 fw-normal'>
-                                    <span className={`${classes.about__icon}`}><i className="ri-checkbox-circle-fill"></i></span>
-                                    Think Creative
-                                </h6>
-                                <h6 className=' d-flex align-items-center gap-3 mt-4 fw-normal'>
-                                    <span className={`${classes.about__icon}`}><i className="ri-checkbox-circle-fill"></i></span>
-                                    Responsive
-                                </h6>
-                            </div>
-                            <div>
-                                <h6 className=' d-flex align-items-center gap-3 mt-4 fw-normal'>
-                                    <span className={`${classes.about__icon}`}><i className="ri-checkbox-circle-fill"></i></span>
-                                    Socialize
-                                </h6>
-                                <h6 className=' d-flex align-items-center gap-3 mt-4 fw-normal'>
-                                    <span className={`${classes.about__icon}`}><i className="ri-checkbox-circle-fill"></i></span>
-                                    Discipline
-                                </h6>
-                            </div>
-                        </div>
-                        <Col>
-                            <div className={`${classes.about__acv}`}>
-                                <h5>Achievements</h5>
-                                <h6 className=' d-flex align-items-center gap-2 mt-4 fw-normal'>
-                                    <span className={`${classes.about__icon}`}><i className="ri-checkbox-circle-fill"></i></span>
-                                    1<sup>st</sup> Ms. Word Contest for Junior Pentium7
-                                </h6>
-                                <h6 className=' d-flex align-items-center gap-2 mt-4 fw-normal'>
-                                    <span className={`${classes.about__icon}`}><i className="ri-checkbox-circle-fill"></i></span>
-                                    3<sup>rd</sup> Ms. Word Contest Senior Ephotech
-                                </h6>
-                                <h6 className=' d-flex align-items-center gap-2 mt-4 fw-normal'>
-                                    <span className={`${classes.about__icon}`}><i className="ri-checkbox-circle-fill"></i></span>
-                                    2<sup>nd</sup> Essay Writing Mayor Denpasar
-                                </h6>
-                                <h6 className=' d-flex align-items-center gap-2 mt-4 fw-normal'>
-                                    <span className={`${classes.about__icon}`}><i className="ri-checkbox-circle-fill"></i></span>
-                                    2<sup>nd</sup> Creative Poster Design PGRI Mahadewa
-                                </h6>
-                            </div>
-                        </Col>
-                    </div>
-                </Col>
-            </Row>
+              <div className="mt-4">
+                <h3>Award & Certification</h3>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-fill"></i>
+                  </span>
+                  Junior Coder - BNSP
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-2 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-fill"></i>
+                  </span>
+                  2<sup>nd</sup> Logo Design Competition SITEFEST
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-2 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-fill"></i>
+                  </span>
+                  3<sup>rd</sup> Microsoft Office Word Competition
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-2 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-fill"></i>
+                  </span>
+                  2<sup>nd</sup> Creative Poster Design Competition
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-2 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-fill"></i>
+                  </span>
+                  Dasar Pemrograman JavaScript - Dicoding
+                </h6>
+              </div>
+            </Col>
+          </Row>
         </Container>
-    </section>
+      </section>
+    );
 }
 
 export default About

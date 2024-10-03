@@ -1,16 +1,6 @@
 const portfolio = [
   {
     id: "01",
-    title: "SD Tunas Harapan Jaya",
-    category: "School",
-    keyword: ["Elementary School"],
-    img: "/images/thj1.png",
-    more: "I have attended this elementary school since fourth grade. How about first until third grades? I used to school in Solo, Central of Java ",
-    liveUrl: "https://www.google.com/maps/place/Sekolah+Dasar+Tunas+Harapan+Jaya/@-8.7093097,115.2027062,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd2413859c2a649:0xdbbd53686c31366!8m2!3d-8.7093097!4d115.2048949!16s%2Fg%2F1hm35stnd",
-  },
-
-  {
-    id: "02",
     title: "SMP Negeri 6 Denpasar",
     category: "School",
     keyword: ["Junior High School"],
@@ -20,13 +10,23 @@ const portfolio = [
   },
 
   {
-    id: "03",
+    id: "02",
     title: "SMK Negeri 1 Denpasar",
     category: "School",
     keyword: ["Senior High School"],
     img: "/images/skensa.png",
     more: "Many people say that high school is the most beautiful part in our life. It was true on me, i was in the good circle of many people and friends",
     liveUrl: "https://www.smkn1denpasar.sch.id/",
+  },
+
+  {
+    id: "03",
+    title: "Universitas Terbuka",
+    category: "School",
+    keyword: ["College"],
+    img: "/images/ut.jpg",
+    more: "Continuing college by majoring in Information Systems makes me even more enthusiastic about exploring knowledge in the world of IT ",
+    liveUrl: "https://denpasar.ut.ac.id/",
   },
 
   {
