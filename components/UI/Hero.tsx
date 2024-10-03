@@ -16,7 +16,7 @@ const Hero = () => {
                         <SectionSubtitle subtitle='Hello' />
                         <h2 className='mt-2'>I&apos;m Putu Yoeliessya Riyanthi</h2>
                         <h5 className='mb-4'>Undergraduate Information Systems Student</h5>
-                        <p>I am a college student at Universitas Terbuka, majoring in Information Systems, with strong skills in web development, including HTML, CSS, JavaScript, TypeScript, and frameworks like Next JS, React JS, Tailwind CSS, etc. Also skilled in digital design, using tools like Adobe Photoshop, Illustrator, and Canva. Working well both individually and in teams, with leadership capabilities, and enjoy learning new things. With my technical and interpersonal skills, I'm confident in delivering high-quality results and making a positive impact on both clients and the company.
+                        <p>I am a college student at Universitas Terbuka, majoring in Information Systems, with strong skills in web development, including HTML, CSS, JavaScript, TypeScript, and frameworks like Next JS, React JS, Tailwind CSS, etc. Also skilled in digital design, using tools like Adobe Photoshop, Illustrator, and Canva. Working well both individually and in teams, with leadership capabilities, and enjoy learning new things. With my technical and interpersonal skills, I&apos;m confident in delivering high-quality results and making a positive impact on both clients and the company.
                         </p>
                         <div className='mt-3 mb-4'>
                             <button className='primary__btn'>
