@@ -15,9 +15,8 @@ const Hero = () => {
                     <div className={`${classes.hero__content}`}>
                         <SectionSubtitle subtitle='Hello' />
                         <h2 className='mt-2'>I&apos;m Putu Yoeliessya Riyanthi</h2>
-                        <h5 className='mb-4'>Junior Developer</h5>
-                        <p>A high school student from SMKN 1 Denpasar majoring in Software Engineering who loves code and play alots of games, big interest in computer.
-                            Having many experience in social organization at school. Many friends? Its Possible!
+                        <h5 className='mb-4'>Undergraduate Information Systems Student</h5>
+                        <p>I&apos;m a college student at Universitas Terbuka, majoring in Information Systems, with strong skills in web development, including HTML, CSS, JavaScript, TypeScript, and frameworks like Next JS, React JS, Tailwind CSS, etc. Also skilled in digital design, using tools like Adobe Photoshop, Illustrator, and Canva. Working well both individually and in teams, with leadership capabilities, and enjoy learning new things. With my technical and interpersonal skills, I'm confident in delivering high-quality results and making a positive impact on both clients and the company.
                         </p>
                         <div className='mt-3 mb-4'>
                             <button className='primary__btn'>
