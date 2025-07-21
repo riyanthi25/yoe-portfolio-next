@@ -33,7 +33,7 @@ const Hero = () => {
                   <button className="primary__btn">
                     <Link
                       target="_blank"
-                      href="https://drive.google.com/file/d/1FBuAIoWjSnkmJwEpbdB6SJ2CPdsJlCGI/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1h6cF65j3QZul8Ya6zwbb7g3W7zwkgnsT/view?usp=sharing"
                     >
                       Download CV
                     </Link>
